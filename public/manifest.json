@@ -1,0 +1,9 @@
+{
+  "name": "XML-RPC Client",
+  "version": "1.0",
+  "description": "Extensión que permite acceder rapidamente a un webservice para realizar pruebas.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup":"popup.html"
+  }
+}

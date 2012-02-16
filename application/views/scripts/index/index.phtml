@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Matias Camiletti (www.mobileia.com)" />
+        <title>XML-RPC Client</title>
+        
+        <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    </head>
+    <body>
+        <div class="layout">
+            <div class="header">
+                
+            </div><!-- header -->
+            <div class="content">
+                <h1>XML-RPC Client</h1>
+                <div class="msg"><?php echo $this->msg ?></div>
+                <?php echo $this->result ?>
+                <form name="form-xml" method="post" action="" />
+                    <label for="url">Url:</label>
+                    <input type="text" name="url" id="url" value="http://dev.zennovia.com/ftia/desarrollo/ftia_web/extras/xmlrpc.php" />
+                    
+                    <label for="metodo">Metodo:</label>
+                    <input type="text" name="metodo" id="metodo" value="boletas.getBoletas" />
+                    
+                    <label for="param1">Parametro 1:</label>
+                    <input type="text" name="param1" id="param1" value="" />
+                    <label for="param2">Parametro 2:</label>
+                    <input type="text" name="param2" id="param2" value="" />
+                    <label for="param3">Parametro 3:</label>
+                    <input type="text" name="param3" id="param3" value="" />
+                    <label for="param4">Parametro 4:</label>
+                    <input type="text" name="param4" id="param4" value="" />
+                    <label for="param5">Parametro 5:</label>
+                    <input type="text" name="param5" id="param5" value="" />
+                    
+                    <input type="submit" name="submit" value="Enviar" />
+                </form>
+            </div><!-- content -->
+            <div class="footer">
+                <p>Desarrollado por Matias Camiletti (<a href="http://www.mobileia.com">MobileIA</a>)</p>
+            </div><!-- footer -->
+        </div><!-- layout -->
+    </body>
+</html>
